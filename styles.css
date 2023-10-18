@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(180deg, #890F0F 0%, rgba(0, 0, 0, 0.44) 0%, #000 0.01%, #050202 13.06%, #040202 28.04%, #100505 40.89%, #180707 50.23%, #210909 61.52%, #2A0B0B 69.5%, #3B0F0F 79.23%, #4A1313 88.38%, #711C1C 99.98%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.container {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center; 
+    display: inline-flex;
+}
+
+
+.air {
+    width: 52px;
+    height: 32px;
+    text-align: center;
+    color: white;
+    font-size: 25.70px;
+    font-family: 'Arial Black', sans-serif;
+    font-weight: 900;
+    word-wrap: break-word;
+}
+
+.tight {
+    width: 90px;
+    height: 32px;
+    text-align: center;
+    font-size: 25.70px;
+    font-family: 'Arial Black', sans-serif;
+    font-weight: 900;
+    word-wrap: break-word;
+    -webkit-text-stroke: 1px white;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+}
+
+.nav-item {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 24px;
+    font-family: Arial Black;
+    font-weight: 900;
+    word-wrap: break-word
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  /* Este es opcional, pero puede ayudar a distribuir el espacio entre los elementos */
+}
